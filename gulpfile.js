@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-// var uglify = require('gulp-uglify');
+var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var browserify = require('browserify');
 var source = require('vinyl-source-stream');
